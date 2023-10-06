@@ -37,17 +37,58 @@
 
 @media (max-width: 768px) {
     .inicio-cartas {
-      width: 500px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
     }
-  }
+}
 
 
-  @media (max-width: 1240px) {
+@media (max-width: 1240px) {
+    .main-tienda {
+        text-align: center;
+        font-family: 'Audiowide';
+        padding: 1%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+}
+@media (max-width: 1024px) { 
+    .servicios-div {
+        font-size: 1.2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        
+        .servicios-img {
+        width: 50vw;
+        }
+        
+        .p-cambio {
+        order: 2;
+        }
+
+
+
+}
+@media (max-width: 1240px) {
+
+    .main-tienda {
+display: flex;
+flex-direction: column;
+
+    }
+
+    
+}
+@media (max-width: 1240px) {
     .main-tienda {
         text-align: center;
         font-family: 'Audiowide';

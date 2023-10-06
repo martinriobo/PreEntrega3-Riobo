@@ -1,8 +1,8 @@
 .footer {
-    background-color: black;
+    background-color: $color-negro;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    border-bottom: solid 1px bisque;
+    border-bottom: solid 1px;
     height: auto;
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 .copy {
-    background-color: black;
+    background-color: $color-negro;
     text-align: center;
     color: white;
 }

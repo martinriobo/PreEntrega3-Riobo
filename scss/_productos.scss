@@ -19,20 +19,31 @@
 
     .cards {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-bottom: 24px;
 
     }
 
     .tienda-boton {
         color: #fafafa;
-        background-color: black;
+        background-color: $color-negro;
         border: bisque;
 
         &:hover {
             background-color: bisque;
 
 
+
         }
+    }
+
+    .tituloProductos {
+
+        color: $color-negro;
+        font-size: 100px;
+        font-family: 'Dela Gothic One', cursive;
+        text-shadow: 2px 2px $color-verde;
+        text-align: center;
+        margin: 100px;
     }
 }

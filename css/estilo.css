@@ -16,32 +16,34 @@ a {
 }
 
 .forFondo {
-  background-color: bisque;
+  background-color: white;
   border-radius: 50px;
+  box-shadow: 2px 2px greenyellow;
 }
 
 header li:hover {
-  background-color: white;
+  background-color: greenyellow;
 }
 
 .contactanos {
   text-decoration: none;
-  background-color: bisque;
+  background-color: white;
   padding: 10px 25px;
   border: none;
   border-radius: 50px;
   font-size: 15px;
   color: black;
+  box-shadow: 2px 2px greenyellow;
 }
 .contactanos:hover {
-  background-color: beige;
+  background-color: greenyellow;
 }
 
 .footer {
   background-color: black;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: solid 1px bisque;
+  border-bottom: solid 1px;
   height: auto;
 }
 
@@ -116,16 +118,16 @@ p {
   margin-bottom: 200px;
   width: 100%;
 }
-.inicio h1 {
+.inicio .tituloInicio {
   color: black;
   font-size: 100px;
-  font-family: "Lato", sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Dela Gothic One", cursive;
+  text-shadow: 2px 2px greenyellow;
 }
 .inicio p {
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
 }
 .inicio .inicio img {
   padding: 20px;
@@ -170,7 +172,22 @@ body {
   border: 3px solid black;
   margin: 40px 10%;
   padding: 40px;
-  background-image: url(../img/Fondo.jpg);
+  background-color: greenyellow;
+}
+
+.tituloNosotros {
+  color: black;
+  font-size: 100px;
+  font-family: "Dela Gothic One", cursive;
+  text-shadow: 2px 2px greenyellow;
+  text-align: center;
+  margin: 100px;
+}
+
+.texto {
+  font-size: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
 }
 
 @media (max-width: 1335px) {
@@ -221,6 +238,44 @@ body {
     justify-content: center;
   }
 }
+@media (max-width: 1024px) {
+  .servicios-div {
+    font-size: 1.2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .servicios-img {
+    width: 50vw;
+  }
+  .p-cambio {
+    order: 2;
+  }
+}
+@media (max-width: 1240px) {
+  .main-tienda {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1240px) {
+  .main-tienda {
+    text-align: center;
+    font-family: "Audiowide";
+    padding: 1%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.tituloServicio {
+  color: black;
+  font-size: 70px;
+  font-family: "Dela Gothic One", cursive;
+  text-shadow: 2px 2px greenyellow;
+  text-align: center;
+}
+
 .section-servicios {
   display: flex;
   flex-direction: column;
@@ -239,11 +294,16 @@ body {
 }
 
 .servicios-p {
-  background-color: beige;
-  border: 2px solid grey;
+  border: 2px solid greenyellow;
+  overflow: hidden;
   color: black;
   margin: 1%;
   padding: 10%;
+  background-color: greenyellow;
+  opacity: 0.5;
+  color: black;
+  text-shadow: 2px 2px greenyellow;
+  font-size: 50px;
 }
 
 .img-cambio2 {
@@ -269,7 +329,7 @@ body {
 }
 .main-tienda .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 24px;
 }
 .main-tienda .tienda-boton {
@@ -279,6 +339,14 @@ body {
 }
 .main-tienda .tienda-boton:hover {
   background-color: bisque;
+}
+.main-tienda .tituloProductos {
+  color: black;
+  font-size: 100px;
+  font-family: "Dela Gothic One", cursive;
+  text-shadow: 2px 2px greenyellow;
+  text-align: center;
+  margin: 100px;
 }
 
 .main-formulario {
@@ -293,13 +361,13 @@ body {
 }
 
 .formulario {
-  color: black;
+  color: greenyellow;
   display: flex;
   flex-direction: column;
 }
 
 .contacto-titulo {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Dela Gothic One", cursive;
   font-size: 2rem;
   color: white;
   text-align: center;
@@ -307,6 +375,7 @@ body {
   letter-spacing: 2px;
   word-spacing: 4px;
   color: black;
+  text-shadow: 2px 2px greenyellow;
 }
 
 .check-form {

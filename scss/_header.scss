@@ -1,41 +1,42 @@
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    top: 0;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $color-negro;
+  top: 0;
+
+}
+
+a {
+  color: white;
+}
+
+.miLogo {
+  width: 150px;
+  display: block;
+}
+
+.forFondo {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 2px 2px $color-verde;
+}
+
+header li:hover {
+  background-color: $color-verde;
+}
+
+.contactanos {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  color: black;
+  box-shadow: 2px 2px $color-verde;
+
+  &:hover {
+    background-color: $color-verde;
   }
-  
-  a  {
-    color: white;
-  }
-  .miLogo {
-    width: 150px;
-    display: block;
-  }
-  
-  .forFondo {
-    background-color: bisque;
-    border-radius: 50px;
-  }
-  
-  header li:hover {
-    background-color: white;
-  }
-  
-  .contactanos {
-    text-decoration: none;
-    background-color: bisque;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 50px;
-    font-size: 15px;
-    color: black;
-    
-  
-    &:hover {
-      background-color: beige;
-    }
-  }
-  
+}

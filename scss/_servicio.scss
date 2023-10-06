@@ -1,16 +1,27 @@
+.tituloServicio {
+
+  color: $color-negro;
+  font-size: 70px;
+  font-family: 'Dela Gothic One', cursive;
+  text-shadow: 2px 2px $color-verde;
+  text-align: center;
+
+}
+
 .section-servicios {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  
+  
 }
 
 .servicios-div {
   display: flex;
   flex-direction: row;
-  border: 3px solid black;
+  border: 3px solid $color-negro;
   margin: 40px 10%;
 
-  
 }
 
 .servicios-img {
@@ -18,11 +29,17 @@
 }
 
 .servicios-p {
-  background-color: beige;
-  border: 2px solid grey;
-  color: black;
+
+  border: 2px solid $color-verde;
+  overflow: hidden;
+  color: $color-negro;
   margin: 1%;
-  padding: 10%;
+ padding: 10%;
+  background-color: $color-verde;
+  opacity: 0.5;
+  color: $color-negro;
+  text-shadow: 2px 2px $color-verde;
+ font-size: 50px;
 }
 
 .img-cambio2 {

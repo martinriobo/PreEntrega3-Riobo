@@ -10,20 +10,22 @@
 }
 
 .formulario {
-    color: black;
+    color: $color-verde;
     display: flex;
     flex-direction: column;
 }
 
 .contacto-titulo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 2.0rem;
+
     color: white;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     word-spacing: 4px;
-    color: black;
+    color: $color-negro;
+    text-shadow: 2px 2px $color-verde;
 }
 
 .check-form {
@@ -41,7 +43,7 @@
 
 .botonEnviar {
     border-radius: 10px;
-    background-color: black;
+    background-color: $color-negro;
     border: none;
     color: white;
 

@@ -15,14 +15,32 @@
     height: 50vw;
     border: 2px solid grey;
     object-fit: fill;
+
 }
 
 .fotosInfo {
     display: flex;
     flex-direction: row;
-    border: 3px solid black;
+    border: 3px solid $color-negro;
     margin: 40px 10%;
     padding: 40px;
-    background-image: url(../img/Fondo.jpg);
+    background-color: $color-verde;
+
+
+}
+
+.tituloNosotros {
+    color: $color-negro;
+    font-size: 100px;
+    font-family: 'Dela Gothic One', cursive;
+    text-shadow: 2px 2px $color-verde;
+    text-align: center;
+    margin: 100px;
+}
+
+.texto {
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: $color-negro;
 
 }
