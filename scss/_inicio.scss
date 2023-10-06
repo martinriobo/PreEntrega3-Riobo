@@ -1,0 +1,38 @@
+.inicio {
+    background-image: url(../img/slide\ 1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    margin: auto;
+    margin-bottom: 200px;
+    width: 100%;
+   
+
+    h1 {
+        color: black;
+        font-size: 100px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    p {
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .inicio img {
+        padding: 20px;
+    }
+
+    .fotos {
+        width: 400px;
+
+    }
+
+
+}

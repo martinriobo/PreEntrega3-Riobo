@@ -1,0 +1,61 @@
+@media (max-width: 1335px) {
+    .sobreNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobreNosotros h1 {
+        font-size: 70px;
+    }
+
+    .sobreNosotros p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 874px) {
+    .sobreNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobreNosotros h1 {
+        font-size: 40px;
+    }
+
+    .sobreNosotros p {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .inicio-cartas {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+
+
+  @media (max-width: 1240px) {
+    .main-tienda {
+        text-align: center;
+        font-family: 'Audiowide';
+        padding: 1%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+}

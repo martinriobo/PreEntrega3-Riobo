@@ -1,0 +1,30 @@
+.section-servicios {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.servicios-div {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  margin: 40px 10%;
+
+  
+}
+
+.servicios-img {
+  width: 40%;
+}
+
+.servicios-p {
+  background-color: beige;
+  border: 2px solid grey;
+  color: black;
+  margin: 1%;
+  padding: 10%;
+}
+
+.img-cambio2 {
+  order: 2;
+}

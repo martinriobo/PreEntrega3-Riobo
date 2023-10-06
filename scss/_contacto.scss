@@ -1,0 +1,51 @@
+.main-formulario {
+    display: flex;
+    padding: 24px;
+    justify-content: space-evenly;
+}
+
+.section-formulario {
+    display: flex;
+    max-width: 480px;
+}
+
+.formulario {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: black;
+}
+
+.check-form {
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+.campo {
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+.botonEnviar {
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+
+    &:hover {
+        background-color: bisque;
+    }
+}
